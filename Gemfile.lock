@@ -157,6 +157,8 @@ GEM
     nokogiri (1.15.3)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.15.3-x86_64-linux)
+      racc (~> 1.4)
     orm_adapter (0.5.0)
     public_suffix (5.0.3)
     puma (6.3.0)
@@ -244,6 +246,7 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.6.3)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (1.6.3-x86_64-linux)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.2)
@@ -282,6 +285,7 @@ PLATFORMS
 DEPENDENCIES
   activestorage-validator
   bootsnap
+  bundler (~> 2.4, >= 2.4.18)
   capybara
   debug
   devise
